@@ -9,9 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">         
-        <Developer name={dados[0].name} age={dados[0].age} country={dados[0].country}/>
-        <Developer name={dados[1].name} age={dados[1].age} country={dados[1].country}/>
-        <Developer name={dados[2].name} age={dados[2].age} country={dados[2].country}/>
+      {dados.map((e)=> <Developer name={e.name} age={e.age} country={e.country}/>)}
       </header>
     </div>
   );
