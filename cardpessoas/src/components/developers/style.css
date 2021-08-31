@@ -1,0 +1,21 @@
+@keyframes girar {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+.Dados {
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+.Dados:hover{
+    animation-name: girar;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+.name {
+    font-weight: bold;
+}
