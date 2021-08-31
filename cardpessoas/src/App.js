@@ -3,9 +3,9 @@ import './App.css';
 import Developer from './components/developers';
 
 function App() {
-  const dados = [{name: "Rafael",age:31,country:"Brasil"},
-                {name: "Lara", age:28,country:"Brasil"},
-                {name: "Luara",age: 2, country:"Japão"}]
+  const dados = [{name: "Gabriel",age:19,country:"Brasil"},
+                {name: "Felipe", age:28,country:"Brasil"},
+                {name: "Mariana",age: 24, country:"Itália"}]
   return (
     <div className="App">
       <header className="App-header">         
